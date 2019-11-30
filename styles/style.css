@@ -1,0 +1,109 @@
+/*
+filename: style.css
+author: Klim Huynh
+created: 01/05/2019
+last modified: 03/06/2019
+description: index.html
+*/
+
+body {
+  font-family: "Arial";
+  font-size: 120%;
+}
+
+h1 {
+  text-align:center;
+}
+
+footer {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  background-color: white;
+  font-size: 12px;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+#overall {
+  background-color: lightcoral;
+  margin-top: 5em;
+  margin-left: 5em;
+}
+
+#duringAlcoholTime {
+  background-color: indigo;
+}
+
+#chart2 label {
+  margin-left: 3em;
+  font-size: 16px;
+}
+
+#chart3 {
+  margin: auto;
+  width: 50%;
+}
+
+#chart4 {
+  margin-left: 15em;
+}
+
+
+#stackedBarChart rect:hover {
+  fill: lightgrey;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #fff;
+}
+
+.axis text {
+  font-size: 13px;
+}
+
+.bar {
+  fill: #f1b6da;
+}
+
+svg text.label {
+  fill:black;
+  font: 15px;  
+  font-weight: 400;
+  text-anchor: middle;
+}
+
+#barChart {
+  min-width: 531px;
+}
+
+#submitBar {
+  background-color: #31a354;
+  padding: 3px 32px;
+  font-size: 12px;
+  margin-left: 5em;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+ .shortDescriptions {
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+#shortDescription {
+  margin-left: -5em;
+}

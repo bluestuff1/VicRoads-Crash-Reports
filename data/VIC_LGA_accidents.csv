@@ -1,0 +1,86 @@
+LGA_2014,accidents_2014,LGA_2015,accidents_2015,LGA_2016,accidents_2016,LGA_2017,accidents_2017,LGA_2018,accidents_2018
+Falls Creek Alpine Resort (Uninc),3,Falls Creek Alpine Resort (Uninc),1,Falls Creek Alpine Resort (Uninc),1,Falls Creek Alpine Resort (Uninc),2,Falls Creek Alpine Resort (Uninc),3
+Lake Mountain Alpine Resort (Uninc),1,Lake Mountain Alpine Resort (Uninc),2,Lake Mountain Alpine Resort (Uninc),4,French-Elizabeth-Sandstone Islands (Uninc),1,Lake Mountain Alpine Resort (Uninc),3
+Mount Hotham Alpine Resort (Uninc),3,Mount Hotham Alpine Resort (Uninc),1,Mount Hotham Alpine Resort (Uninc),2,Lake Mountain Alpine Resort (Uninc),1,Mount Buller Alpine Resort (Uninc),2
+Alpine,51,Mount Buller Alpine Resort (Uninc),4,Mount Buller Alpine Resort (Uninc),2,Mount Buller Alpine Resort (Uninc),1,Mount Hotham Alpine Resort (Uninc),1
+Ararat,21,Mount Hotham Alpine Resort (Uninc),5,Mount Hotham Alpine Resort (Uninc),4,Mount Hotham Alpine Resort (Uninc),5,Alpine,30
+Ballarat,198,Alpine,52,Alpine,44,Mount Stirling Alpine Resort (Uninc),1,Ararat,21
+Banyule,149,Ararat,43,Ararat,30,Alpine,38,Ballarat,173
+Bass Coast,60,Ballarat,256,Ballarat,239,Ararat,33,Banyule,147
+Baw Baw,153,Banyule,188,Banyule,215,Ballarat,232,Bass Coast,51
+Bayside,119,Bass Coast,77,Bass Coast,91,Banyule,191,Baw Baw,100
+Benalla,29,Baw Baw,174,Baw Baw,185,Bass Coast,62,Bayside,103
+Bendigo,202,Bayside,170,Bayside,190,Baw Baw,139,Benalla,22
+Boroondara,286,Benalla,47,Benalla,45,Bayside,184,Bendigo,176
+Brimbank,372,Bendigo,309,Bendigo,292,Benalla,39,Boroondara,205
+Buloke,16,Boroondara,313,Boroondara,289,Bendigo,253,Brimbank,285
+Campaspe,79,Brimbank,445,Brimbank,433,Boroondara,270,Buloke,8
+Cardinia,163,Buloke,17,Buloke,21,Brimbank,355,Campaspe,53
+Casey,422,Campaspe,90,Campaspe,89,Buloke,17,Cardinia,144
+Central Goldfields,23,Cardinia,229,Cardinia,227,Campaspe,90,Casey,383
+Colac Otway,73,Casey,607,Casey,627,Cardinia,191,Central Goldfields,20
+Corangamite,38,Central Goldfields,22,Central Goldfields,27,Casey,495,Colac Otway,79
+Dandenong,375,Colac Otway,91,Colac Otway,100,Central Goldfields,25,Corangamite,29
+Darebin,265,Corangamite,47,Corangamite,58,Colac Otway,108,Dandenong,294
+East Gippsland,118,Dandenong,505,Dandenong,537,Corangamite,55,Darebin,234
+Frankston,208,Darebin,364,Darebin,343,Dandenong,406,East Gippsland,88
+Gannawarra,27,East Gippsland,163,East Gippsland,140,Darebin,278,Frankston,156
+Geelong,404,Frankston,256,Frankston,240,East Gippsland,128,Gannawarra,23
+Glen Eira,228,Gannawarra,27,Gannawarra,20,Frankston,201,Geelong,378
+Glenelg,36,Geelong,487,Geelong,536,Gannawarra,21,Glen Eira,198
+Golden Plains,42,Glen Eira,268,Glen Eira,297,Geelong,506,Glenelg,34
+Hepburn,33,Glenelg,60,Glenelg,42,Glen Eira,260,Golden Plains,49
+Hindmarsh,11,Golden Plains,59,Golden Plains,75,Glenelg,37,Hepburn,41
+Hobsons Bay,165,Hepburn,42,Hepburn,54,Golden Plains,67,Hindmarsh,10
+Horsham,46,Hindmarsh,14,Hindmarsh,11,Hepburn,43,Hobsons Bay,121
+Hume,340,Hobsons Bay,218,Hobsons Bay,181,Hindmarsh,9,Horsham,29
+Indigo,40,Horsham,47,Horsham,39,Hobsons Bay,157,Hume,320
+Kingston,290,Hume,445,Hume,481,Horsham,32,Indigo,25
+Knox,198,Indigo,53,Indigo,52,Hume,380,Kingston,224
+Latrobe,124,Kingston,344,Kingston,316,Indigo,43,Knox,171
+Loddon,29,Knox,313,Knox,309,Kingston,307,Latrobe,107
+Macedon Ranges,85,Latrobe,145,Latrobe,179,Knox,265,Loddon,13
+Manningham,128,Loddon,29,Loddon,25,Latrobe,130,Macedon Ranges,73
+Mansfield,55,Macedon Ranges,123,Macedon Ranges,120,Loddon,29,Manningham,129
+Maribyrnong,148,Manningham,196,Manningham,166,Macedon Ranges,97,Mansfield,35
+Maroondah,171,Mansfield,60,Mansfield,64,Manningham,170,Maribyrnong,119
+Melbourne,652,Maribyrnong,201,Maribyrnong,191,Mansfield,38,Maroondah,119
+Melton,177,Maroondah,215,Maroondah,214,Maribyrnong,172,Melbourne,501
+Mildura,86,Melbourne,859,Melbourne,735,Maroondah,195,Melton,156
+Mitchell,90,Melton,251,Melton,236,Melbourne,689,Mildura,63
+Moira,43,Mildura,113,Mildura,138,Melton,219,Mitchell,100
+Monash,351,Mitchell,139,Mitchell,158,Mildura,113,Moira,35
+Moonee Valley,213,Moira,70,Moira,74,Mitchell,123,Monash,243
+Moorabool,74,Monash,444,Monash,409,Moira,62,Moonee Valley,152
+Moreland,327,Moonee Valley,224,Moonee Valley,253,Monash,345,Moorabool,60
+Mornington Peninsula,204,Moorabool,103,Moorabool,106,Moonee Valley,164,Moreland,287
+Mount Alexander,37,Moreland,428,Moreland,406,Moorabool,69,Mornington Peninsula,183
+Moyne,45,Mornington Peninsula,297,Mornington Peninsula,291,Moreland,352,Mount Alexander,27
+Murrindindi,112,Mount Alexander,52,Mount Alexander,40,Mornington Peninsula,234,Moyne,42
+Nillumbik,106,Mount Buller Alpine Resor,1,Moyne,42,Mount Alexander,33,Murrindindi,59
+Northern Grampians,26,Moyne,51,Murrindindi,125,Moyne,46,Nillumbik,90
+Port Phillip,242,Murrindindi,113,Nillumbik,133,Murrindindi,104,Northern Grampians,26
+Pyrenees,27,Nillumbik,135,Northern Grampians,40,Nillumbik,110,Port Phillip,182
+Queenscliffe,1,Northern Grampians,40,Port Phillip,280,Northern Grampians,35,Pyrenees,20
+Shepparton,132,Port Phillip,303,Pyrenees,30,Port Phillip,249,Queenscliffe,1
+South Gippsland,82,Pyrenees,31,Queenscliffe,2,Pyrenees,24,Shepparton,106
+Southern Grampians,25,Shepparton,155,Shepparton,189,Queenscliffe,2,South Gippsland,64
+Stonnington,285,South Gippsland,94,South Gippsland,117,Shepparton,145,Southern Grampians,23
+Strathbogie,28,Southern Grampians,40,Southern Grampians,30,South Gippsland,77,Stonnington,183
+Surf Coast,84,Stonnington,323,Stonnington,293,Southern Grampians,34,Strathbogie,29
+Swan Hill,46,Strathbogie,52,Strathbogie,39,Stonnington,252,Surf Coast,61
+Towong,30,Surf Coast,88,Surf Coast,91,Strathbogie,43,Swan Hill,24
+Wangaratta,55,Swan Hill,47,Swan Hill,58,Surf Coast,67,Towong,27
+Warrnambool,40,Towong,35,Towong,33,Swan Hill,35,Wangaratta,52
+Wellington,114,Wangaratta,48,Wangaratta,72,Towong,24,Warrnambool,37
+West Wimmera,8,Warrnambool,52,Warrnambool,76,Wangaratta,63,Wellington,80
+Whitehorse,238,Wellington,146,Wellington,118,Warrnambool,62,West Wimmera,9
+Whittlesea,304,West Wimmera,8,West Wimmera,14,Wellington,105,Whitehorse,195
+Wodonga,54,Whitehorse,286,Whitehorse,286,West Wimmera,11,Whittlesea,276
+Wyndham,266,Whittlesea,411,Whittlesea,446,Whitehorse,254,Wodonga,38
+Yarra,263,Wodonga,61,Wodonga,65,Whittlesea,336,Wyndham,211
+Yarra Ranges,328,Wyndham,302,Wyndham,285,Wodonga,51,Yarra,226
+Yarriambiack,5,Yarra,332,Yarra,358,Wyndham,270,Yarra Ranges,237
+,,Yarra Ranges,452,Yarra Ranges,417,Yarra,302,Yarriambiack,6
+,,Yarriambiack,15,Yarriambiack,11,Yarra Ranges,368,,
+,,,,,,Yarriambiack,8,,

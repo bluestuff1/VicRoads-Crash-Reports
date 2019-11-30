@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="descriptions" content="Data Visualisation Project" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="author" content="Klim Huynh" />
+    <link href="styles/style.css" rel="stylesheet" />
+    <script src="scripts/main.js"></script>
+    <script src="scripts/StackedBarChart.js"></script>
+    <script src="scripts/BarChart.js"></script>
+    <script src="scripts/Choropleth.js"></script>
+    <script src="scripts/Heatmap1.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <title>Crashes in the last 5 years</title>
+
+</head>
+
+<body>
+    <h1>Crashes in Victoria (2014-2018)</h1>
+
+    <div id="chart1">
+        <button type="button" id="overall">Overall</button>
+        <button type="button" id="duringAlcoholTime">During Alcohol Time</button>
+
+        <p id="stackedBarChart"></p>
+        <p class="shortDescriptions">
+            The stacked bar chart on the left represents the number of alcohol-related accidents.
+            The x-axis represents the years.
+            year 0 is 2014, year 1 is 2015, and so on.<br />
+            The colour hue blue is the magnitude of non-alcohol related accidents and orange is the magnitude of
+            alcohol-related accidents. Hovering over the chart will display the number accidents in that stack.<br />
+            "Alcohol Time" refers to periods of time that VicRoad believes most people drink.
+            Alcohol Times are defined as the following:<br />
+            • Monday – Thursday 00:00-06:00 hours & 18:00-2359 hours<br />
+            • Friday 00:00-06:00 hours & 16:00-23:59 hours<br />
+            • Saturday 00:00-08:00 hours & 14:00-23:59 hours<br />
+            • Sunday 00:00-10:00 hours & 16:00-23:59 hours.<br />
+            <br />
+            As you can see most of the accidents that occur are not alcohol-related.</p>
+    </div>
+
+    <br />
+
+    <div id="chart2">
+        <p><label for="yearSelectedBar">Year</label>
+            <select name="yearSelectedBar" id="yearSelectedBar">
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+            </select>
+        </p>
+
+        <p><label for="regionSelectedBar">Region</label>
+            <select name="regionSelectedBar" id="regionSelectedBar">
+                <option value="EASTERN_REGION">Eastern</option>
+                <option value="METROPOLITAN_NORTH_WEST_REGION">Metropolitan North West</option>
+                <option value="METROPOLITAN_SOUTH_EAST_REGION">Metropolitan South East</option>
+                <option value="NORTH_EASTERN_REGION">North Eastern</option>
+                <option value="NORTHERN_REGION">Northern</option>
+                <option value="SOUTH_WESTERN_REGION">South Western</option>
+                <option value="WESTERN_REGION">Western</option>
+            </select>
+        </p>
+
+        <button type="button" id="submitBar">Submit</button>
+
+        <p id="barchart"></p>
+        <p class="shortDescriptions">
+            This bar chart is illustrate a breakdown of the accidents that occur, into 9 different categories.
+            By entering a year and region, the graph will change accordingly.
+            It can be concluded that the most common type of accident to occur is Collision With Vehicle
+            regardless of region.
+            The region tend to have the most accidents on a year-to-year basis is Metropolitan South East.
+        </p>
+    </div>
+
+    <div id="chart3">
+        <h2>Number of Accidents by LGA map</h2>
+        <p id="choropleth"></p>
+        <p class="shortDescriptions">
+            This choropleth represents all the accidents in Victoria, Australia between the years 2014 and 2018.
+            The choropleth uses a sequential colour scheme to encode quantitative values, which arranges from high to
+            low using a single colour hue.
+            Low data values are represented by light colour saturation and high data vlues are represented by darker
+            colour saturation.
+        </p>
+    </div>
+
+    <br />
+    <div id="chart4">
+        <h2>Accidents in Victoria</h2>
+        <p><label for="yearSelectedHeatmap">Year</label>
+            <select name="yearSelectedHeatmap" id="yearSelectedHeatmap">
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+            </select>
+        </p>
+
+        <p><label for="injurySelectedHeatmap">Injury Severity</label>
+            <select name="injurySelectedHeatmap" id="injurySelectedHeatmap">
+                <option value="InjureOrFatal">Injury or Fatal</option>
+                <option value="Fatality">Fatality</option>
+                <option value="SeriousInjury">Serious Injury</option>
+                <option value="OtherInjury">Other Injury</option>
+                <option value="NonInjured">Non Injured</option>
+            </select>
+        </p>
+
+        <div id="regionDropdown"></div>
+
+        <p id="heatmap1"></p>
+        <p id="shortDescription">
+            The heatmap uses a system of colour-coding to show different values.
+            It is also using a sequential colour
+            scheme just the like choropleth above.
+            The year, injury severity and region can be inputted. <br />
+            There doesn't seem to be any noticeable trends.
+        </p>
+    </div>
+
+    <footer style="color:grey">COS30045 Data Visualisation<br>
+        Klim Huynh</footer>
+</body>
+
+</html>
